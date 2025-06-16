@@ -98,7 +98,6 @@ Conforme solicitado, o programa lida com diferentes configurações de terreno.
   1  1  4  4  4
   ```
 
-| Visualização Inicial | Visualização Final |
 ![image](https://github.com/user-attachments/assets/6ed02d4c-2bb2-43a0-b860-4dba9b5a61d8)
 
 
@@ -121,7 +120,6 @@ Conforme solicitado, o programa lida com diferentes configurações de terreno.
   3  3  3  1  4
   ```
 
-| Visualização Inicial | Visualização Final |
 ![image](https://github.com/user-attachments/assets/cf2cd780-3680-48b6-a674-29333d41154e)
 
 
