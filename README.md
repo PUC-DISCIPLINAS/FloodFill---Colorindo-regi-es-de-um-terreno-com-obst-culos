@@ -124,7 +124,11 @@ Conforme solicitado, o programa lida com diferentes configurações de terreno.
   3  3  3  1  4
   ```
 
-![image](https://github.com/user-attachments/assets/cf2cd780-3680-48b6-a674-29333d41154e)
+| Visualização Inicial | Visualização Final |
+| :---: | :---: |
+| ![image](https://github.com/user-attachments/assets/00484c1b-b35f-4fae-8232-26e9748f75ea)
+
+ | ![image](https://github.com/user-attachments/assets/cf2cd780-3680-48b6-a674-29333d41154e) |
 
 
 ---
