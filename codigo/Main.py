@@ -16,7 +16,6 @@ def imprimir_grid(grid, titulo="Grid"):
         print("Grid vazio.")
         return
     for linha in grid:
-        # Formata cada número para ter um espaçamento consistente
         print(" ".join(f"{celula:<2}" for celula in linha))
     print("-" * (len(grid[0]) * 3))
 
@@ -32,13 +31,10 @@ def desenhar_grid(grid, titulo="Visualização Gráfica do Grid"):
         print("Não é possível desenhar um grid vazio.")
         return
 
-    # Mapeamento de valores para cores
-    # 0: Branco, 1: Preto, 2: Vermelho, 3: Laranja, 4: Amarelo, etc.
     cores = ['#FFFFFF', '#000000', '#FF0000', '#FFA500', '#FFFF00', 
              '#00FF00', '#0000FF', '#4B0082', '#EE82EE', '#A52A2A',
              '#00FFFF', '#FF00FF']
     
-    # Garante que temos cores suficientes, ou repete as cores se necessário
     max_val = np.max(grid) if grid else 0
     num_cores_necessarias = max_val + 1
     cores_disponiveis = cores * (num_cores_necessarias // len(cores) + 1)
@@ -56,7 +52,6 @@ def desenhar_grid(grid, titulo="Visualização Gráfica do Grid"):
     for i in range(len(grid)):
         for j in range(len(grid[0])):
             valor = grid[i][j]
-            # Escolhe a cor do texto (preto ou branco) para melhor contraste
             cor_texto = 'black' if valor in [0, 4, 5, 10] else 'white'
             ax.text(j, i, str(valor), ha='center', va='center', color=cor_texto, fontweight='bold')
     
@@ -80,7 +75,6 @@ def flood_fill_iterativo(grid, x, y, nova_cor):
 
         if grid[linha][coluna] == cor_original:
             grid[linha][coluna] = nova_cor
-            # Explora os 4 vizinhos (acima, abaixo, esquerda, direita)
             for dx, dy in [(0, 1), (0, -1), (1, 0), (-1, 0)]:
                 nova_linha, nova_coluna = linha + dx, coluna + dy
                 if 0 <= nova_linha < n_linhas and 0 <= nova_coluna < n_colunas and grid[nova_linha][nova_coluna] == cor_original:
@@ -133,10 +127,9 @@ def gerar_grid_aleatorio(n_linhas, n_colunas, proporcao_obstaculos=0.3):
                 break
     return grid
 
-# --- Bloco de Execução Principal ---
 if __name__ == "__main__":
     
-    # --- Exemplo 1 ---
+
     print("\n\n*** EXECUTANDO EXEMPLO 1 ***")
     grid_exemplo_1 = [
         [0, 0, 1, 0, 0],
@@ -149,7 +142,6 @@ if __name__ == "__main__":
     imprimir_grid(grid_final_1, "Exemplo 1: Grid Final Preenchido")
     desenhar_grid(grid_final_1, "Exemplo 1: Visualização Final")
     
-    # --- Exemplo 2 ---
     print("\n\n*** EXECUTANDO EXEMPLO 2 ***")
     grid_exemplo_2 = [
         [0, 1, 0, 0, 1],
@@ -162,11 +154,9 @@ if __name__ == "__main__":
     imprimir_grid(grid_final_2, "Exemplo 2: Grid Final Preenchido")
     desenhar_grid(grid_final_2, "Exemplo 2: Visualização Final")
     
-    # --- Exemplo 3: Ponto Extra (Grid Aleatório) ---
     print("\n\n*** EXECUTANDO EXEMPLO 3 (GRID ALEATÓRIO) ***")
     grid_aleatorio = gerar_grid_aleatorio(10, 15, proporcao_obstaculos=0.35)
     imprimir_grid(grid_aleatorio, "Exemplo 3: Grid Aleatório Inicial")
-    # Começamos em (0,0), mas o algoritmo encontrará todas as regiões de qualquer forma
     grid_final_aleatorio = mapear_terreno_completo(grid_aleatorio, 0, 0)
     imprimir_grid(grid_final_aleatorio, "Exemplo 3: Grid Aleatório Final")
     desenhar_grid(grid_final_aleatorio, "Exemplo 3: Visualização do Grid Aleatório")
