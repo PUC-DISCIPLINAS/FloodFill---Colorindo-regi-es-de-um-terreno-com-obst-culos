@@ -99,8 +99,8 @@ Conforme solicitado, o programa lida com diferentes configurações de terreno.
   ```
 
 | Visualização Inicial | Visualização Final |
-| :---: | :---: |
-| ![Imagem do Grid Inicial do Exemplo 1](https://i.imgur.com/7bY3zQP.png) | ![Imagem do Grid Final do Exemplo 1](https://i.imgur.com/C9qE8cK.png) |
+![image](https://github.com/user-attachments/assets/6ed02d4c-2bb2-43a0-b860-4dba9b5a61d8)
+
 
 ### Exemplo 2
 
@@ -122,8 +122,8 @@ Conforme solicitado, o programa lida com diferentes configurações de terreno.
   ```
 
 | Visualização Inicial | Visualização Final |
-| :---: | :---: |
-| ![Imagem do Grid Inicial do Exemplo 2](https://i.imgur.com/Gj3H297.png) | ![Imagem do Grid Final do Exemplo 2](https://i.imgur.com/kS5xP9v.png) |
+![image](https://github.com/user-attachments/assets/cf2cd780-3680-48b6-a674-29333d41154e)
+
 
 ---
 
