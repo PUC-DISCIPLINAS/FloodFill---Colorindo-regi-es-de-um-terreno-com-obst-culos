@@ -98,16 +98,9 @@ Conforme solicitado, o programa lida com diferentes configurações de terreno.
   1  1  4  4  4
   ```
 
- Visualização Inicial | Visualização Final |
-| :---: | :---: |
-| <img src="![image](https://github.com/user-attachments/assets/145923f7-1e49-4bf1-aef5-e625195c07dd)" alt="Visualização Inicial do Exemplo 1" width="350"> | <img src="![image](https://github.com/user-attachments/assets/6ed02d4c-2bb2-43a0-b860-4dba9b5a61d8)" alt="Visualização Final do Exemplo 1" width="350"> |
-
-
 | Visualização Inicial | Visualização Final |
 | :---: | :---: |
-| ![image](https://github.com/user-attachments/assets/145923f7-1e49-4bf1-aef5-e625195c07dd)
- | ![image](https://github.com/user-attachments/assets/6ed02d4c-2bb2-43a0-b860-4dba9b5a61d8) |
-
+| <img src="https://github.com/user-attachments/assets/145923f7-1e49-4bf1-aef5-e625195c07dd" alt="Visualização Inicial do Exemplo 1" width="350"> | <img src="https://github.com/user-attachments/assets/6ed02d4c-2bb2-43a0-b860-4dba9b5a61d8" alt="Visualização Final do Exemplo 1" width="350"> |
 
 
 ### Exemplo 2
@@ -131,9 +124,7 @@ Conforme solicitado, o programa lida com diferentes configurações de terreno.
 
 | Visualização Inicial | Visualização Final |
 | :---: | :---: |
-| ![image](https://github.com/user-attachments/assets/2d5e1f66-2fbc-4be6-96ee-c2eedd2c30b3)
- | ![image](https://github.com/user-attachments/assets/cf2cd780-3680-48b6-a674-29333d41154e) |
-
+| <img src="https://github.com/user-attachments/assets/2d5e1f66-2fbc-4be6-96ee-c2eedd2c30b3" alt="Visualização Inicial do Exemplo 2" width="350"> | <img src="https://github.com/user-attachments/assets/cf2cd780-3680-48b6-a674-29333d41154e" alt="Visualização Final do Exemplo 2" width="350"> |
 
 ---
 
