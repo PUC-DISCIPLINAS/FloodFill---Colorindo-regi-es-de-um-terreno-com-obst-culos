@@ -98,6 +98,11 @@ Conforme solicitado, o programa lida com diferentes configurações de terreno.
   1  1  4  4  4
   ```
 
+ Visualização Inicial | Visualização Final |
+| :---: | :---: |
+| <img src="![image](https://github.com/user-attachments/assets/145923f7-1e49-4bf1-aef5-e625195c07dd)" alt="Visualização Inicial do Exemplo 1" width="350"> | <img src="![image](https://github.com/user-attachments/assets/6ed02d4c-2bb2-43a0-b860-4dba9b5a61d8)" alt="Visualização Final do Exemplo 1" width="350"> |
+
+
 | Visualização Inicial | Visualização Final |
 | :---: | :---: |
 | ![image](https://github.com/user-attachments/assets/145923f7-1e49-4bf1-aef5-e625195c07dd)
